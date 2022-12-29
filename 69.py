@@ -24,7 +24,7 @@ def sqrt_newton(num):
     # 起始点为 x_0，所求目标点为 x_1 = x_0 - f(x_0) / f'(x_0) = (x_0 +　num / x_0) / 2
     x0 = num
 
-    while x0 ** 2 > num:
+    while x0 ** 2 - num > 0:
         x0 = floor(x0 / 2 + num / (2 * x0))
 
     return x0
