@@ -11,7 +11,7 @@ def shuffer(nums):
 
 
 def findKthLargest(nums: List[int], k: int) -> int:
-    shuffer(nums)       # 先打乱数组，避免极端情况下性能退化到 O(n)
+    shuffer(nums)       # 先打乱数组，避免极端情况下性能退化到 O(n^2)
     lowk = len(nums) - k        # 找第 k 大，就是等价于找第 size-k 小
 
     def find(nums, l, r):
