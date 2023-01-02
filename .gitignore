@@ -1,0 +1,18 @@
+.DS_Store
+
+.vscode
+.idea
+
+*.pyc
+*.pyo
+__pychache__/
+build/
+
+# setup.py
+*.egg
+*.egg-info/
+
+.env
+
+# these files is only for testing in local
+*.test.py

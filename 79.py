@@ -7,7 +7,7 @@ from common import *
 
 def exist(board: List[List[str]], word: str) -> bool:
     """
-    回溯法(性能较差, leetcode 执行需要接近 6s, 仅前 22%)
+    回溯法(未剪枝，性能较差, leetcode 执行需要接近 6s, 仅前 22%)
     """
     width=len(board[0]); height=len(board)
     visited=[[False for j in range(width)] for i in range(height)]      # 标记是否已访问过目标元素
