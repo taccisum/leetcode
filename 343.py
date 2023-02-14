@@ -1,4 +1,4 @@
-# https://leetcode.cn/problems/word-break/
+# https://leetcode.cn/problems/integer-break/
 
 
 from typing import List
