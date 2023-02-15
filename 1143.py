@@ -37,4 +37,4 @@ if __name__ == '__main__':
     s=Solution()
     assert s.longestCommonSubsequence('hello', 'world') == 1
     assert s.longestCommonSubsequence('leetcode', 'etco') == 4
-    assert s.longestCommonSubsequence('a', 'a') == 0
+    assert s.longestCommonSubsequence('a', 'a') == 1
